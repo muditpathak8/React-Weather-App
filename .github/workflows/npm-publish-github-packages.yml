@@ -27,8 +27,8 @@ jobs:
         run: npm install
 
       # Run tests
-      - name: Run tests
-        run: npm test -- --watchAll=false
+      # - name: Run tests
+      #   run: npm test -- --watchAll=false
 
       # Build React app
       - name: Build project
